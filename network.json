@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
@@ -27,15 +17,14 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
-        },
-        {
-            "name": "clean.R"
+            "assigned_to": "rhfrench",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-08 19:09:37",
+    "updated_at": "2018-10-08 19:13:12",
     "url": "https://github.com/fall2018-saltz/rhfrench_hw6"
 }
