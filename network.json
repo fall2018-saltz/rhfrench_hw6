@@ -13,6 +13,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "pop_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -29,6 +39,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-08 19:14:47",
+    "updated_at": "2018-10-08 19:15:21",
     "url": "https://github.com/fall2018-saltz/rhfrench_hw6"
 }
