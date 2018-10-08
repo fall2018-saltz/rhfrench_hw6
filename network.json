@@ -17,14 +17,15 @@
     ],
     "nodes": [
         {
-            "assigned_to": "rhfrench",
-            "name": "clean.R",
-            "task_status": "in progress"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "rhfrench",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-08 19:13:12",
+    "updated_at": "2018-10-08 19:13:18",
     "url": "https://github.com/fall2018-saltz/rhfrench_hw6"
 }
